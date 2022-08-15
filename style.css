@@ -44,10 +44,16 @@ body{
 }
 
 button{
-    background:#3882F6;
+    background-color: rgb(0, 0, 71);
+    padding: 1rem 0;
     color: white;
+    box-shadow:0 20px 30px -8px rgb(96, 92, 121);
+    width: 100%;
     border: none;
-    border-radius: 3px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.9;
+    border-radius: 12px;
 }
 
 .tagline{
