@@ -3,14 +3,20 @@ body{
 }
 *{
     font-family:'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
 }
 
 .header{
+
     display: flex;
-    background: #1F2937;
+    /* background: #1F2937; */
+    background-image: url(https://c.tenor.com/r2g9it3iY_UAAAAC/anime-girl.gif);
+    background-size: cover;
+
     flex-direction: column;
-    height: 400px;
+    height: 100vh;
     flex: 1;
+    align-content: center;
     justify-content: space-between;
     color: white;
     padding: 10%;
@@ -41,6 +47,7 @@ button{
     background:#3882F6;
     color: white;
     border: none;
+    border-radius: 3px;
 }
 
 .tagline{
@@ -48,8 +55,9 @@ button{
     font-size: 48px;
     color: #F9FAF8;
 }
-.desc{
 
+.img{
+    display: flex;
 }
 
 
@@ -59,7 +67,11 @@ button{
     justify-content: center;
     /* align-items: center; */
     gap:0;
-    height: 200px;
+    height: 400px;
+    background-color: #1F2937;
+    opacity: 0.9;
+    border-radius: 15px;
+    padding: 10px;
 }
 .head-content-left{
     /* background:blue; */
@@ -69,12 +81,12 @@ button{
     justify-content: space-between;
 }
 .head-content-right{
-    background: #465569;
+    /* background: #465569; */
     display: flex;
     justify-content: center;
     align-items: center;
     /* margin:10%; */
-    width:900px;
+    width:800px;
     height: auto;
 }
 
@@ -112,13 +124,21 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #E5E7EB;
+    /* background: #E5E7EB; */
     font-size: 36px;
     font-weight: lighter;
     height: 400px;
     padding: 10%;
+    background-image: url(https://media0.giphy.com/media/Ju7l5y9osyymQ/giphy.gif?cid=ecf05e47fmucmqzsfjpt07xh88yhhh2co9jg2ov4ppsd6khy&rid=giphy.gif&ct=g);
+    background-size: cover;
 }
-
+.quote{
+    background:#1F2937;
+    opacity: 0.9;
+    padding: 3%;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
 .main3{
     color: white;
     display: flex;
@@ -130,7 +150,7 @@ button{
     padding-right: 30px;
 }
 .mainBox{
-    background:#3882F6;
+    background:red;
     display: flex;
     padding: 30px;
     gap:20px;
@@ -145,6 +165,7 @@ button{
 .mainButton{
     border:3px solid white;
     border-radius: 5px;
+    background: none;
 }
 .mainBox-right{
     display: flex;
