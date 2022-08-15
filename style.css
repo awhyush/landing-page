@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+}
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header{
+    display: flex;
+    background: #1F2937;
+    flex-direction: column;
+    height: 400px;
+    flex: 1;
+    justify-content: space-between;
+    color: white;
+    padding: 10%;
+    padding-top: 0%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.logo{
+    /* background: pink; */
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.links{
+    /* background: honeydew; */
+    display:flex;
+    gap: 6px;
+    color: #E5E7EB;
+    font-size: 18px;
+
+}
+
+button{
+    background:#3882F6;
+    color: white;
+    border: none;
+}
+
+.tagline{
+    font-weight:bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.desc{
+
+}
+
+
+.head-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    gap:0;
+    height: 200px;
+}
+.head-content-left{
+    /* background:blue; */
+    /* margin: 10%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.head-content-right{
+    background: #465569;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:10%; */
+    width:900px;
+    height: auto;
+}
+
+.head-content-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    border:2px solid blue;
+    border-radius: 15px;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    height: 400px;
+    padding: 10%;
+}
+
+.main3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.mainBox{
+    background:#3882F6;
+    display: flex;
+    padding: 30px;
+    gap:20px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.mainBox-head{
+    font-size: larger;
+}
+
+.mainButton{
+    border:3px solid white;
+    border-radius: 5px;
+}
+.mainBox-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    background: #1F2937;
+    color: white;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
