@@ -23,6 +23,12 @@ body{
     padding-top: 0%;
 }
 
+.links a{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-decoration: none;
+}
+
 .nav{
     display: flex;
     justify-content: space-between;
@@ -60,6 +66,10 @@ button{
     font-weight:bolder;
     font-size: 48px;
     color: #F9FAF8;
+}
+
+.tagline p{
+    font-size: small;
 }
 
 .img{
